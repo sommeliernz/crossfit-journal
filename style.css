@@ -1,0 +1,262 @@
+/* ===================================================
+   CROSSFIT JOURNAL
+   TERMINAL EDITION
+=================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+
+    background:#000;
+    color:#fff;
+
+    font-family:
+        "Courier New",
+        Courier,
+        monospace;
+
+    font-size:18px;
+
+}
+
+body{
+
+    max-width:900px;
+
+    margin:auto;
+
+    padding:30px;
+
+    line-height:1.6;
+
+}
+
+#header{
+
+    white-space:pre-wrap;
+
+    margin-bottom:30px;
+
+    font-size:20px;
+
+}
+
+nav{
+
+    display:flex;
+
+    gap:10px;
+
+    margin-bottom:25px;
+
+}
+
+button{
+
+    background:#000;
+
+    color:#fff;
+
+    border:1px solid #fff;
+
+    padding:12px 18px;
+
+    cursor:pointer;
+
+    font-family:inherit;
+
+    font-size:18px;
+
+}
+
+button:hover{
+
+    background:#fff;
+    color:#000;
+
+}
+
+button:active{
+
+    background:#888;
+
+}
+
+hr{
+
+    border:none;
+
+    border-top:1px solid white;
+
+    margin:25px 0;
+
+}
+
+footer{
+
+    margin-top:25px;
+
+    font-size:14px;
+
+    opacity:.7;
+
+}
+
+h1,
+h2,
+h3{
+
+    font-weight:normal;
+
+    margin-bottom:15px;
+
+}
+
+p{
+
+    margin-bottom:14px;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:15px;
+
+    margin-bottom:20px;
+
+}
+
+td{
+
+    padding:8px;
+
+    border-bottom:1px solid white;
+
+}
+
+input,
+textarea{
+
+    width:100%;
+
+    background:black;
+
+    color:white;
+
+    border:1px solid white;
+
+    padding:10px;
+
+    font-family:inherit;
+
+    font-size:17px;
+
+    margin-top:6px;
+
+    margin-bottom:16px;
+
+}
+
+textarea{
+
+    resize:vertical;
+
+    min-height:120px;
+
+}
+
+a{
+
+    color:white;
+
+}
+
+.completed{
+
+    color:#999;
+
+}
+
+.current{
+
+    font-weight:bold;
+
+}
+
+.big{
+
+    font-size:30px;
+
+}
+
+.center{
+
+    text-align:center;
+
+}
+
+.small{
+
+    font-size:14px;
+
+    opacity:.7;
+
+}
+
+.block{
+
+    margin-top:25px;
+
+    margin-bottom:25px;
+
+}
+
+.hidden{
+
+    display:none;
+
+}
+
+@media(max-width:700px){
+
+body{
+
+    padding:20px;
+
+    font-size:16px;
+
+}
+
+button{
+
+    width:100%;
+
+}
+
+nav{
+
+    flex-direction:column;
+
+}
+
+html{
+
+    font-size:16px;
+
+}
+
+.big{
+
+    font-size:22px;
+
+}
+
+}
